@@ -7,6 +7,44 @@
     <groupId>org.example</groupId>
     <artifactId>JavaEE_Examples</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>WebSocket</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <properties>
+        <arquillian.version>1.4.1.Final</arquillian.version>
+        <java.min.version>1.8</java.min.version>
+        <maven.min.version>3.0.0</maven.min.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.test.skip>false</maven.test.skip>
+        <skipTests>false</skipTests>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!-- The Java EE 7 API, which is the main and only API which this project is
+             providing samples for.
+         -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Test dependencies which can be used in sub-modules -->
+
+
+    </dependencies>
+
 
 
 </project>
