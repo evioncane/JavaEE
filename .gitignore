@@ -1,0 +1,20 @@
+######################
+# Project Specific
+######################
+/target/**
+/src/test/javascript/coverage/
+/src/main/webapp/gui/
+
+######################
+# IDE
+######################
+.idea
+.settings
+.classpath
+.project
+
+######################
+# Swagger
+######################
+swagger-ui/swagger.json
+swagger-ui/swagger.yaml
