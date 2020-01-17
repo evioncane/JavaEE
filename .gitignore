@@ -12,6 +12,7 @@
 .settings
 .classpath
 .project
+**/*.iml
 
 ######################
 # Swagger
